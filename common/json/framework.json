@@ -1,0 +1,55 @@
+{
+
+    "config": {
+
+		"branding": {
+			"name": "Company Name",
+			"version": 1,
+			"icon": "fa fa-image"
+		},
+		
+        "browser_title": "My First A.I. Website",
+		"launch_date": "May 14, 2021",
+
+        "meta": {
+            "author": "Dylan L Hall",
+            "keywords": "web developer, artificial intelligence, first website",
+            "description": "This website is made using development strategies of Dylan L Hall."
+        },
+
+        "opening_page": "home",
+        "page_query": "page",
+
+        "dir": {
+            "BASE": "/",
+            "core": {
+                "CSS": "common/css/",
+                "ECMA": "common/ecma/",
+                "ERRORS": "common/errors/",
+                "IMAGES": "common/images/",
+                "JSON": "common/json/",
+                "PHP": "common/php/"
+            }
+        }
+
+    },
+
+    "content": {
+
+        "layout": [
+            { "content": "layout/top.php" },
+            { "content": "@main" },
+            { "content": "layout/bottom.php" }
+        ],
+
+        "pages": [
+            { "uri": "home", "name": "Home", "content": "pages/home.mdown" }
+        ],
+		
+		"errors": {
+			"404": { "name": "File Not Found", "content": "common/errors/404.mdown" }
+		}
+
+    }
+
+}
