@@ -1,0 +1,21 @@
+<main>
+
+<section class="p-3 text-center">
+
+<h1>404 Error</h1>
+
+<p class="mb-0" style="font-size: 4em;">
+	<i class="fa fa-warning"></i>
+</p>
+
+<p>
+A page could exist here, but it doesn't!<br />
+Better luck next time.
+</p>
+
+<p class="mb-0">
+Perhaps you'd like to <a href="/dev/">return to our website?</a>
+</p>
+</section>
+
+</main>
